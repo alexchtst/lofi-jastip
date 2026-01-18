@@ -2,7 +2,8 @@
 import { createContext, useState } from "react";
 
 export enum DrawerKindEnum {
-    testtemplate = "testtemplate"
+    testtemplate = "testtemplate",
+    progress = "progress",
 }
 
 export type DrawerContextType = {

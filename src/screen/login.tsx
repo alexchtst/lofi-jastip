@@ -12,14 +12,14 @@ export default function Login() {
           <div className="flex flex-col gap-2">
             <label className="text-sm">Username</label>
             <input type="text" placeholder="username" 
-            className="p-1 border border-gray-300 rounded-md"
+            className="p-2 border border-gray-300 rounded-md"
             />
           </div>
 
           <div className="flex flex-col gap-2">
             <label className="text-sm">Password</label>
             <input type="password"
-            className="p-1 border border-gray-300 rounded-md"
+            className="p-2 border border-gray-300 rounded-md"
             />
           </div>
 

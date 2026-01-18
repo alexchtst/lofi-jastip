@@ -3,6 +3,7 @@ import { createContext, useState } from "react";
 
 export enum ModalKindEnum {
     testtemplate = "testtemplate",
+    projectprogress = "projectprogress",
 }
 
 export type ModalContextType = {
